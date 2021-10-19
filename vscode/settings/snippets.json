@@ -1,0 +1,32 @@
+{
+  "css": 
+  {
+    "snippets": 
+    {
+      "cb": "color: black",
+      "bsd": "border: 1px solid ${1:red}",
+      "fsi": "font-size: ${1:normal:bigger}",
+      "ls": "list-style: ${1}",
+      "txac": "text-align: center",
+      "txttlow": "text-transform: lowercase",
+      "txttup": "text-transform: uppercase"
+    }
+  },
+  "html": 
+  {
+    "bootstrap":
+    {
+      "galeria": "figure.figure*13>img.figure-img.img-fluid.rounded[alt=\"produto $\"]+figcaption.figure-caption{<b>Nome da imagem:</b> <kbd>produto-$.jpeg</kbd>}"
+
+    },
+    "snippets": 
+    {
+      "meta:cache": "<meta http-equiv=\"Cache-control\" content=\"no-cache\">",
+      "link:css": "<link media=\"projection, screen, tv\" rel=\"stylesheet\" type=\"text/css\" href=\"assets/${1}\">",
+      "script": "<script type=\"text/javascript\">${1}</script>",
+      "script:mod": "<script type=\"module\">${1}</script>",
+      "script:mod:src": "<script type=\"module\" src=\"${1}\"></script>",
+      "script:src": "<script type=\"text/javascript\" src=\"${1}\"></script>"
+    }
+  }
+}

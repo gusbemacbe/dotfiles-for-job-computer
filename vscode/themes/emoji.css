@@ -1,0 +1,51 @@
+.monaco-shell 
+{
+  font-family: 'Iosevka', 'Iosevka Nerd Font', 'Iosevka NF', 'VictorMono Nerd Font', 'FuraCode Nerd Font', 'FuraCode NF', 'M++ Nerd Font', 'Sarasa Mono J', 'OpenMoji Color Regular', 'Apple Color Emoji', 'JoyPixels', 'Segoe UI Emoji', 'Font Awesome 5 Free', monospace;
+  font-feature-settings: "liga" on, "calt" on;
+}
+
+.monaco-workbench
+{
+    font-family: 'FiraGO', 'M++ Nerd Font', 'EmojiOne Color', sans-serif;
+    font-variant-ligatures: initial;
+    font-feature-settings: "liga" on, "calt" on;
+}
+
+.monaco-workbench .panel.integrated-terminal 
+{
+    font-family: 'Iosevka', 'Iosevka Nerd Font', 'Iosevka NF', 'VictorMono Nerd Font', 'FuraCode Nerd Font', 'FuraCode NF', 'M++ Nerd Font', 'Sarasa Mono J', 'OpenMoji Color Regular', 'Apple Color Emoji', 'JoyPixels', 'Segoe UI Emoji', 'Font Awesome 5 Free', monospace;
+    font-variant-ligatures: initial;
+    font-feature-settings: "liga" on, "calt" on;
+}
+
+.xterm 
+{
+    font-family: 'Iosevka', 'Iosevka Nerd Font', 'Iosevka NF', 'VictorMono Nerd Font', 'FuraCode Nerd Font', 'FuraCode NF', 'M++ Nerd Font', 'Sarasa Mono J', 'OpenMoji Color Regular', 'Apple Color Emoji', 'JoyPixels', 'Segoe UI Emoji', 'Font Awesome 5 Free', monospace;
+    font-variant-ligatures: initial;
+    font-feature-settings: "liga" on, "calt" on;
+}
+
+.explorer-viewlet 
+{ 
+    font-family: "IBM Plex Sans"; 
+    font-size: 18px;
+}
+
+.monaco-tree .monaco-tree-rows>.monaco-tree-row 
+{
+    min-height: 30px;
+}  
+
+.monaco-tree-row.has-children 
+{
+    font-weight: 500;
+    margin: 10px;
+    font-size: 16px;
+}
+    
+.monaco-tree-row 
+{
+    font-weight: 300;
+    margin: 7px;
+    font-size: 14px
+}
