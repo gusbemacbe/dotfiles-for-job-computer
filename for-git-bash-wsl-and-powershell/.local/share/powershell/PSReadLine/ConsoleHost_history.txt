@@ -1,0 +1,13 @@
+Install-Module oh-my-posh -Scope CurrentUser
+Import-Module oh-my-posh
+. $PROFILE
+oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
+oh-my-posh --print-shell
+PoshThemes
+Set-PoshPrompt -Theme nu4a
+. $PROFILE
+Test-Path $Profile
+New-Item –Path $Profile –Type File –Force
+micro $Profile
+. $PROFILE
+exit
